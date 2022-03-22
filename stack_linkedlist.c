@@ -51,7 +51,7 @@ void Push(int d)
 	newnode=malloc(sizeof(struct Stack));
 	if(newnode==NULL)
 	{
-		printf("Stack is full\n");
+		printf("Stack is not created\n");
 	}
 	else
 	{
